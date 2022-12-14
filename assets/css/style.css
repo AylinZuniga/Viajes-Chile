@@ -1,0 +1,67 @@
+.img1 {
+  height:174.69px;
+ 
+}
+
+
+@media (max-width: 767.98px) {
+  .first-section {
+    margin:0px 37px;
+  }
+
+  .parrafo-uno {
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+  }
+  .parrafo-dos {
+    font-size: 16px;
+  }
+  .second-section {
+    text-align: center;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: row;
+}
+.recipe{
+  margin: 0px;
+}
+.firts-btn{
+  font-size: 10px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  color: #373a3c;
+}
+.recipe {
+  margin:0px 37px;
+}
+.button-text{
+  margin-bottom:95px ;
+  width: 100%;
+}
+.email-container{
+  padding:70px 37px 10px 37px ;
+}
+.newletter-title{
+  font-size: 30px;
+}
+.newletter-paragraph{
+  font-size: 20px;
+}
+span{
+  font-size:20px;
+}
+.other-recipe{
+  margin: 0px 37px;
+  align-items: center;
+}
+.related-recipes{
+  font-size: 25px;
+}
+.card{
+  width: 100%!important;
+}
+
+
+}
