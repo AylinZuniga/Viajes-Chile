@@ -2,6 +2,51 @@
   height:174.69px;
  
 }
+/* sections */
+body{
+  background-color:#000000;
+ 
+}
+.navbar{
+  background-color:#279DAA;
+ 
+}
+h4{
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+}
+a{
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+}
+p{
+  font-size: 10px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+}
+.card{
+  height: 290px;
+  margin: 0%;
+  padding: 0%;
+}
+
+/* 
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+} */
+
+
+
+
 
 
 @media (max-width: 767.98px) {
