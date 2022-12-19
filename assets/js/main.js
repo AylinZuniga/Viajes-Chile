@@ -10,16 +10,7 @@ $(function(){
     alert( "El correo fue enviado correctamente...")
    })
 
-   $('h3').on("dblclick",function(){
+   $('h4').on("dblclick",function(){
     $(this).css("color","red")
    })
-
-   $('.card-title').click(function()
-    {
-        $('.card-text').toggle()
-        $('.card-img-top').toggle()
-    }
-    )
-
-
 })

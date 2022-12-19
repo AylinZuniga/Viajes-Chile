@@ -31,7 +31,7 @@
                 <a class="navbar-brand navbar-title text-light" href="#">Viajes Chile</a>
             </div>
 
-            
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -145,12 +145,15 @@
 
         </article>
 
-        <div id="scrollspyHeading3" class="destacados row ps-5">
+        <section id="scrollspyHeading3" class="destacados row ms-auto">
             <h4 class="text-center text-white">Destacados</h4>
             <div class="row">
-                <div class="col-xs-12  col-sm-12 col-md-3 col-lg-3 mt-4 mx-auto">
-                    <div class="card mx-auto position-relative bg-info" style="width: 18rem;">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="montañas sur">
+                <div class="col-xs-12  col-sm-12 col-md-3 col-lg-3 mt-4 ">
+                    <div class="card position-relative bg-info" style="width: 18rem;">
+                        <div data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Torres del paine">
+                            <img src="assets/img/card1.jpg" class="card-img-top" alt="montañas sur">
+                            </div>
+                        
                         <div class="card-body">
                             <p class="card-text main-text mb-2 recipe-text-2 text-white">Mus enim elementum dignissim
                                 class eleifend
@@ -160,9 +163,11 @@
 
                     </div>
                 </div>
-                <div class="col-xs-12  col-sm-12 col-md-3 col-lg-3 mt-4 mx-auto">
-                    <div class="card mx-auto position-relative bg-info" style="width: 18rem;">
+                <div class="col-xs-12  col-sm-12 col-md-3 col-lg-3 mt-4 ">
+                    <div class="card position-relative bg-info" style="width: 18rem;">
+                        <div data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Laguna altiplanica">
                         <img src="assets/img/card2.jpg" class="card-img-top img1" alt="laguna">
+                        </div>
                         <div class="card-body">
                             <p class="card-text main-text mb-2 recipe-text-2 text-white">Congue fermentum dignissim
                                 rhoncus elementum
@@ -172,9 +177,12 @@
 
                     </div>
                 </div>
-                <div class="col-xs-12  col-sm-12 col-md-3 col-lg-3 mt-4 mx-auto">
-                    <div class="card mx-auto position-relative bg-info" style="width: 18rem;">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="flamenco norte chile">
+                <div class="col-xs-12  col-sm-12 col-md-3 col-lg-3 mt-4 ">
+                    <div class="card  position-relative bg-info" style="width: 18rem;">
+                        <div data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Flamenco Norte Chile">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="flamenco norte chile">
+                        </div>
+                        
                         <div class="card-body">
                             <p class="card-text main-text mb-2 recipe-text-2 text-white">Cubilia elementum posuere arcu
                                 rhoncus egestas
@@ -182,31 +190,54 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12  col-sm-12 col-md-3 col-lg-3 mt-4 mx-auto">
-                    <div class="card mx-auto position-relative bg-info" style="width: 18rem;">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="bosque sur ">
+                <div class="col-xs-12  col-sm-12 col-md-3 col-lg-3 mt-4">
+                    <div class="card position-relative bg-info" style="width: 18rem;">
+                        <div data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Patagonia">
+                            <img src="assets/img/card4.jpg"  class="card-img-top" alt="bosque sur">
+                        </div>
+
                         <div class="card-body">
                             <p class="card-text main-text mb-2 recipe-text-2 text-white">Cubilia elementum posuere arcu
                                 rhoncus egestas
                                 lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+       
+
+
+        <form id="scrollspyHeading4" class="mt-5">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-white">Nombre</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label text-white">Asunto</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label text-white">Mensaje</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button id="enviarCorreo" type="submit" class="btn btn-info text-white ">Enviar</button>
+        </form>
+
+
+    </div>
+
+
+    <footer class=" footer-fondo bg-info mt-5 d-flex justify-content-center bg-info d-grid gap-3">
+        <p class="footer-text mt-3 text-white">VIAJES CHILE</p>
+        <div class="d-flex d-grid gap-3 mt-2">
+            <i class="fa-brands fa-square-github text-white fa-2x"></i>
+            <i class="fa-brands fa-linkedin text-white fa-2x"></i>
+            <i class="fa-brands fa-square-twitter text-white fa-2x"></i>
+            <i class="fa-brands fa-square-facebook text-white fa-2x"></i>
+
         </div>
-
-        
-    </div>
-
-    <div class="container-fluid mt-5 text-center email-container">
-        <h2 class="text-light newletter-title pt-5">SUSCRÍBETE EN NUESTRO NEWSLETTER</h2>
-        <p class="newletter-paragraph">y obtén las mejores recetas que tenemos en <span>Ricomida</span></p>
-        <button class="btn btn-outline-light mt-4 btnSubmit mx-auto button-text" type="button"
-            id="button-addon1">Empezar</button>
-    </div>
-
-    <footer class="text-center footer-fondo">
-        <p class="footer-text py-4 ">Ricomida</p>
     </footer>
 
 

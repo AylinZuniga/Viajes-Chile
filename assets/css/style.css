@@ -29,84 +29,27 @@ p{
   margin: 0%;
   padding: 0%;
 }
-
-/* 
-#navbar {
-  overflow: hidden;
-  background-color: #333;
+.navIcon{
+  width: 30px;
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+
+form{
+  margin: 68px 120px ;
 }
-.sticky + .content {
-  padding-top: 60px;
-} */
-
-
-
 
 
 
 @media (max-width: 767.98px) {
-  .first-section {
-    margin:0px 37px;
-  }
-
-  .parrafo-uno {
-    text-align: center;
-    font-size: 25px;
-    width: 100%;
-  }
-  .parrafo-dos {
-    font-size: 16px;
-  }
-  .second-section {
-    text-align: center;
-  }
-  .button-container {
+  
+  
+  .card{
     display: flex;
-    flex-direction: row;
-}
-.recipe{
-  margin: 0px;
-}
-.firts-btn{
-  font-size: 10px;
-  font-family: "Cabin", sans-serif;
-  font-weight: 400;
-  color: #373a3c;
-}
-.recipe {
-  margin:0px 37px;
-}
-.button-text{
-  margin-bottom:95px ;
-  width: 100%;
-}
-.email-container{
-  padding:70px 37px 10px 37px ;
-}
-.newletter-title{
-  font-size: 30px;
-}
-.newletter-paragraph{
-  font-size: 20px;
-}
-span{
-  font-size:20px;
-}
-.other-recipe{
-  margin: 0px 37px;
-  align-items: center;
-}
-.related-recipes{
-  font-size: 25px;
-}
-.card{
-  width: 100%!important;
-}
-
+    justify-content: center;
+  }
+  form{
+    
+    margin: 0px;
+    padding: 5%;
+  }
 
 }
